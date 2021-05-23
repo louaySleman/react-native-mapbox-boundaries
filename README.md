@@ -20,9 +20,7 @@
 ### Installation
 
 ```js
-npm
-i
-react - native - mapbox - boundaries
+npm i react - native - mapbox - boundaries
 ```
 
 ### Usage
