@@ -1,14 +1,12 @@
-<p align="center">
-  Cross Platform <a href="https://reactnative.dev">React Native</a> UI Toolkit
-</p>
+# react-native-map-boundaries
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/react-native-mapbox-boundaries"><img src="https://img.shields.io/badge/npm-v1.1-blue"></a>
+<p align="left">
+  <a href="https://www.npmjs.com/package/react-native-mapbox-boundaries"><img src="https://img.shields.io/badge/npm-v1.2-blue"></a>
   <a href="https://travis-ci.org/react-native-mapbox-boundaries/react-native-mapbox-boundaries"><img src="https://img.shields.io/travis/react-native-elements/react-native-elements/master.svg"></a>
   <a href="https://github.com/react-native-elements/react-native-elements"><img src="https://img.shields.io/badge/stars-5-blue"></a>
 </p>
 
-<p align="center">
+<p align="left">
   <a><img src="https://img.shields.io/badge/sponsors-2-green"></a>
   <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
@@ -17,12 +15,20 @@
 
 ## Get Started
 
+<img src="https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.gif" style="width: 50%" />
+
 ### Installation
 
 ```js
-npm i react - native - mapbox - boundaries
+npm i react-native-mapbox-boundaries --save
 ```
 
+or by using yarn
+
+```js
+yarn add react-native-mapbox-boundaries
+```
+-----
 ### Usage
 
 Start using the components
@@ -35,15 +41,16 @@ const boundries = getBoundaries(area, location);
 
 ## Methods included:
 
+
 - [x] getBoundaries
 - [x] getCircleRadiusByPx
-
+-----
 ## React Native Web support
 
 As a cross platform UI Toolkit, you can now use RNE on the web & share your codebase between your React Native + React
 web apps. RNE components are rendered perfectly on browser. You can achieve this to target iOS, Android and Web by
 collaborating RNE and [React Native for Web](https://github.com/necolas/react-native-web).
-
+-----
 ## Get Boundaries
 
 Allow you to get the mapBox boundaries for offline download using a center point, and a radius size [km]
@@ -72,7 +79,7 @@ and after that we can use the download map using mapbox and our new boundaries
     errorListener
 );
 ```
-
+-----
 ## Get Dynamic Marker Circle Radius
 
 Allow you to get a dynamic marker radius that's can change by the zoom level, you can use it by adding the marker
@@ -93,16 +100,25 @@ import {getCircleRadiusByPx} from 'react-native-mapbox-boundaries';
 ...
 />
 ```
-
+-----
 ## Demo App
 
-Coming soon.
+<img src="https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.gif" style="width: 50%" />
+
+![demo](https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.png)
+
+A fully working demo to download an offline map by setting the Region, and the radius size,
+
+you can download it now from <a href="https://github.com/louaySleman/react-native-mapbox-boundaries">here</a>
+
+-----
+### Report
 
 If there is something you's like to see or request a new feature, please submit an
 [issue](https://github.com/louaySleman/react-native-mapbox-boundaries/issues/new)
 or a
 [pull request](https://github.com/louaySleman/react-native-mapbox-boundaries/pulls).
-
+-----
 ### Core Contributors
 
 We are currently looking for new core contributors that can help lead this project.
