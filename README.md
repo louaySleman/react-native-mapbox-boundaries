@@ -1,4 +1,4 @@
-# react-native-map-boundaries
+# react-native-mapbox-boundaries
 
 <p align="left">
   <a href="https://www.npmjs.com/package/react-native-mapbox-boundaries"><img src="https://img.shields.io/badge/npm-v1.2-blue"></a>
@@ -15,8 +15,6 @@
 
 ## Get Started
 
-<img src="https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.gif" style="width: 50%" />
-
 ### Installation
 
 ```js
@@ -30,6 +28,8 @@ yarn add react-native-mapbox-boundaries
 ```
 -----
 ### Usage
+
+<img src="https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.gif" style="width: 50%" />
 
 Start using the components
 
@@ -50,6 +50,7 @@ const boundries = getBoundaries(area, location);
 As a cross platform UI Toolkit, you can now use RNE on the web & share your codebase between your React Native + React
 web apps. RNE components are rendered perfectly on browser. You can achieve this to target iOS, Android and Web by
 collaborating RNE and [React Native for Web](https://github.com/necolas/react-native-web).
+
 -----
 ## Get Boundaries
 
@@ -118,6 +119,7 @@ If there is something you's like to see or request a new feature, please submit 
 [issue](https://github.com/louaySleman/react-native-mapbox-boundaries/issues/new)
 or a
 [pull request](https://github.com/louaySleman/react-native-mapbox-boundaries/pulls).
+
 -----
 ### Core Contributors
 
