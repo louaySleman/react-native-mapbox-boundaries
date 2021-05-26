@@ -1,0 +1,31 @@
+{
+  "name": "react-native-mapbox-boundaries",
+  "version": "1.1.1",
+  "description": "This package will help you to get the map boundaries for offline map download using mapbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "boundaries",
+    "react-native-mapbox-boundaries",
+    "react-native-mapbox",
+    "mapboxGl",
+    "mapbox"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louaySleman/react-native-mapbox-boundaries.git"
+  },
+  "author": {
+    "email": "louayakram12@hotmail.com",
+    "name": "Louay Sleman"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/louaySleman/react-native-mapbox-boundaries/issues"
+  },
+  "homepage": "https://github.com/louaySleman/react-native-mapbox-boundaries#readme"
+}
