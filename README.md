@@ -29,8 +29,6 @@ yarn add react-native-mapbox-boundaries
 -----
 ### Usage
 
-<img src="https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.gif" style="width: 50%" />
-
 Start using the components
 
 ```js
@@ -103,10 +101,6 @@ import {getCircleRadiusByPx} from 'react-native-mapbox-boundaries';
 ```
 -----
 ## Demo App
-
-<img src="https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.gif" style="width: 50%" />
-
-![demo](https://raw.githubusercontent.com/louaySleman/react-native-mapbox-boundaries/master/assets/demo.png)
 
 A fully working demo to download an offline map by setting the Region, and the radius size,
 
